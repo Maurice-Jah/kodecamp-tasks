@@ -1,0 +1,334 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.hero {
+  height: 75vh;
+  background-image: url(../images/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-ham {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.hero-ham img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  bottom: 5rem;
+  margin-left: 25%;
+  gap: 4rem;
+}
+.hero-text1 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.hero-text2 {
+  padding: 2.5rem 1rem;
+  width: 45%;
+  margin-left: -8rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.after-hero {
+  background-color: rgb(238, 190, 228);
+  color: #fff;
+  padding: 5rem;
+}
+
+.after-hero--big {
+  width: 80%;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.after-hero--big span {
+  font-size: 3rem;
+}
+
+.after-hero--small {
+  width: 40%;
+  font-size: 0.8rem;
+}
+
+.imageDiv1,
+.imageDiv2 {
+  display: flex;
+}
+
+.image1,
+.image2,
+.image3 {
+  width: 30rem;
+  height: 30rem;
+}
+
+.image4,
+.image5,
+.image6 {
+  width: 30rem;
+  height: 35rem;
+}
+
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img,
+.image6 img {
+  width: 100%;
+  display: block;
+}
+
+.coming {
+  background-color: rgb(238, 190, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 5rem;
+  color: #fff;
+}
+
+.coming-soon {
+  font-style: italic;
+  font-size: 5rem;
+  font-family: serif;
+}
+
+.coming-sub {
+  font-size: 1.1rem;
+}
+
+.coming-form input,
+.coming-form button {
+  border: unset;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5rem;
+}
+
+.coming-form button {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.imgText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 7rem;
+}
+
+.imgText-img {
+  width: 50rem;
+  height: 26rem;
+  display: block;
+}
+
+.imgText-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.imgText-text {
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imgText-sub {
+  color: rgb(238, 190, 228);
+  font-size: 1.5rem;
+  width: 80%;
+  font-style: italic;
+  font-weight: bold;
+  margin: 1rem auto;
+}
+
+.collection {
+  background-color: rgb(238, 190, 228);
+  color: #fff;
+  padding: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+.collection-heading {
+  margin-bottom: 2rem;
+}
+
+.collection-imageDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.collection-image1,
+.collection-image2,
+.collection-image3,
+.collection-image4 {
+  width: 20rem;
+  height: 26.5rem;
+}
+
+.collection-image1 img,
+.collection-image2 img,
+.collection-image3 img,
+.collection-image4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  margin-top: 2rem;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.sample {
+  padding: 5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.sample-imgDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sample-img1,
+.sample-img2 {
+  width: 20rem;
+  height: 30rem;
+}
+
+.sample-img1 img,
+.sample-img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sample-textDiv {
+  margin-top: 3rem;
+}
+
+.sample-title {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.sample-price {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  font-size: 1.5rem;
+}
+
+.sample-btn {
+  margin-top: 2rem;
+  border: unset;
+  outline: unset;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+  border-radius: 5rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subcribe-imageDiv {
+  width: 35rem;
+  height: 45rem;
+}
+
+.subcribe-imageDiv img {
+  width: 100%;
+  height: 100%;
+}
+
+.subcribe-holder {
+  padding: 1rem;
+  margin: 5rem 2rem;
+  margin-top: 13rem;
+  text-align: center;
+  border-top: 5px solid #dea0ad;
+}
+
+.subcribe-heading {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.subcribe-holder input {
+  padding: 0.5rem 1rem;
+  width: 49%;
+}
+
+.subscribe-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: unset;
+  outline: unset;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+  border-radius: 5rem;
+}
+
+.subscribe-text-sub {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.subscribe-socials {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
